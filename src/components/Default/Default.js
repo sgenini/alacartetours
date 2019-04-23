@@ -1,15 +1,17 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+
 import logo from './logo.svg';
+import './App.css';
 
 class Default extends Component {
   render() {
     return (
-      <div className="App-header">
+      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Under construction, check back soon! <span role="img" aria-label="fight-on">✌</span></p>
-      </div>
-    );
+      </header>
+      );
+    }
   }
-}
 
 export default Default;

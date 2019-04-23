@@ -1,0 +1,7 @@
+.main-heading {
+  font-size: 4vw; 
+  font-weight: 800;
+  text-shadow: .3vh .3vh 25px #00000088;
+  color: white;
+  text-transform: uppercase;
+}
