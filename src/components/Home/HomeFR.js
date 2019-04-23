@@ -26,7 +26,7 @@ class HomeFR extends Component {
               <div className="animated fadeIn">
                 <BackgroundSlideshow images={[ goldengate, lasvegas, nyc, deathvalley ]} startAt={0} style={{ zIndex: "-99", position: "relative" }} />
               </div>
-              <div style={{ zIndex: "2", position:"relative" }}>
+              <div className="mt-5" style={{ zIndex: "2", position:"relative" }}>
                 <h1 className="animated fadeIn mx-3 main-heading">Vos partenaires aux États-Unis</h1>
                 <hr className="animated fadeIn" style={{ backgroundColor: "white", width: "70%", height: "2px", opacity: ".9", boxShadow: ".3vh .3vh 25px #000000" }}/>
                 <h1 className="animated fadeIn" style={{ opacity: .9, textShadow: ".3vh .3vh 25px #000000" }}><MDBIcon icon="angle-down" onClick={this.scrollToAbout} /></h1>
