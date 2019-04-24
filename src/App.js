@@ -5,6 +5,7 @@ import "./assets/styles/app.css";
 
 import Master from "./components/Master/Master";
 import MasterFR from "./components/Master/MasterFR";
+import NotFound from "./components/NotFound/NotFound";
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Master} />
             <Route exact path="/fr" component={MasterFR} />
+            <Route component={NotFound} />
           </Switch>
         </div>
       </Router>
