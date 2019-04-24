@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./assets/styles/app.css";
 
 import Master from "./components/Master/Master";
-import French from "./components/Master/French";
+import MasterFR from "./components/Master/MasterFR";
 
 class App extends Component {
   render() {
@@ -13,7 +13,7 @@ class App extends Component {
         <div className="App">
           <Switch>
             <Route exact path="/" component={Master} />
-            <Route exact path="/fr" component={French} />
+            <Route exact path="/fr" component={MasterFR} />
           </Switch>
         </div>
       </Router>

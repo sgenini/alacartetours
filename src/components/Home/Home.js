@@ -19,12 +19,12 @@ class Home extends Component {
   
   render() {
     return (
-      <section id="home" className="home-page hoverable" style={{opacity: "1", borderBottom: "3px solid white"}}>
+      <section id="home" className="home-page" style={{opacity: "1", borderBottom: "3px solid white"}}>
         <header>
           <MDBView src={transparent}>
             <MDBMask overlay="white-light" className="flex-center flex-column text-white text-center">
               <div className="animated fadeIn">
-                <BackgroundSlideshow images={[ goldengate, lasvegas, nyc, deathvalley ]} startAt={0} style={{ zIndex: "-99", position: "relative" }} />
+                <BackgroundSlideshow images={[ goldengate, lasvegas, nyc, deathvalley ]} animationDelay={7000} startAt={0} style={{ zIndex: "-99", position: "relative" }} />
               </div>
               <div className="mt-5" style={{ zIndex: "2", position:"relative" }}>
                 <h1 className="mx-3 main-heading animated fadeIn">Your Partners in America</h1>

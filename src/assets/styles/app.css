@@ -1,7 +1,11 @@
 .App {
   background-color: #ffffff;
+  background-image: url("../images/xv.png")
 }
 
+p {
+  font-size: 15px;
+}
 
 /* font-family: 'Crimson Text', serif;
 font-family: 'Lato', sans-serif;

@@ -1,20 +1,23 @@
 import React, { Component } from 'react';
 
-import HomeFR from "../Home/HomeFR";
 import NavbarFR from "../Navbar/NavbarFR";
+import HomeFR from "../Home/HomeFR";
+import AboutFR from "../About/AboutFR";
+
 import Footer from "../Footer/Footer";
 
 
-class French extends Component {
+class MasterFR extends Component {
   render() {
     return (
-      <div className="French">
+      <div className="MasterFR">
         <NavbarFR />
         <HomeFR />
+        <AboutFR />
         <Footer />
       </div>
     );
   }
 }
 
-export default French;
+export default MasterFR;
