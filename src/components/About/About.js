@@ -25,12 +25,12 @@ class About extends Component {
                   </MDBRow> 
                   <MDBRow>
                     <MDBCol lg="4" className="mx-auto">
-                      <h1 className="mt-0 mb-2 mr-auto" color="#FFFFFF"><strong><strong style={{fontFamily: "'Crimson Text', serif"}}>Welcome!</strong></strong></h1>
+                      <h1 className="mt-0 mb-0 mr-auto" color="#FFFFFF"><strong><strong style={{fontFamily: "'Crimson Text', serif"}}>Welcome!</strong></strong></h1>
                     </MDBCol>
                   </MDBRow> 
-                  <MDBRow className="mx-auto">
+                  <MDBRow className="mx-auto mt-0">
                     <MDBCol lg="12" className="mx-auto">
-                      <MDBRow className="mb-0 mx-4" >
+                      <MDBRow className="mb-2 mt-0 mx-4" >
                         <h5 className="mx-auto">A La Carte Tours, based in California since 1987, provides quality receptive services for all U.S. destinations.</h5>
                       </MDBRow>
                       <MDBRow className="mx-auto">

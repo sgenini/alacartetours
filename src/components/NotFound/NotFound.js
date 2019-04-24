@@ -17,7 +17,7 @@ class NotFound extends Component {
                   <h2 className="text-white mx-3">Please try again later.</h2>
                   <MDBBtn className="mb-3"outline size="md" color="white" href="/">Return Home</MDBBtn>
                   <hr className="animated fadeIn my-4" style={{ backgroundColor: "white", width: "40%", height: "2px", opacity: ".6", boxShadow: ".3vh .3vh 25px #000000" }}/>
-                  <h2 className="text-white mx-3"><strong>Cette page n'exist pas, ou n'est actuellement en construction.</strong></h2>
+                  <h2 className="text-white mx-3"><strong>Cette page n'existe pas, ou est actuellement en construction.</strong></h2>
                   <h2 className="text-white mx-3">Veuillez réessayer plus tard.</h2>
                   <MDBBtn outline size="md" color="white" href="/fr">Page d'Accueil</MDBBtn>
                 </div>

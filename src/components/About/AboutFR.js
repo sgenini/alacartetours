@@ -25,7 +25,7 @@ class AboutFR extends Component {
                   </MDBRow> 
                   <MDBRow>
                     <MDBCol lg="4" className="mx-auto">
-                      <h1 className="mt-0 mb-2 mr-auto" color="#FFFFFF"><strong><strong style={{fontFamily: "'Crimson Text', serif"}}>Bienvenue!</strong></strong></h1>
+                      <h1 className="mt-0 mb-0 mr-auto" color="#FFFFFF"><strong><strong style={{fontFamily: "'Crimson Text', serif"}}>Bienvenue!</strong></strong></h1>
                     </MDBCol>
                   </MDBRow> 
                   <MDBRow className="mx-auto">
