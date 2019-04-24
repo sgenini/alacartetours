@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Navbar from "../Navbar/Navbar";
 import Home from "../Home/Home";
 import About from "../About/About";
+import Incentives from "../Incentives/Incentives";
 
 import Footer from "../Footer/Footer";
 
@@ -14,6 +15,7 @@ class Master extends Component {
         <Navbar />
         <Home />
         <About />
+        <Incentives />
         <Footer />
       </div>
     );

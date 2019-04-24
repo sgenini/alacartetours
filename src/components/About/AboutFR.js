@@ -12,10 +12,10 @@ class AboutFR extends Component {
 
   render() {
     return (
-      <section id="about" className="about-page" style={{opacity: "1", borderBottom: "3px solid white"}}>
+      <section id="about" className="about-page animated fadeIn" style={{opacity: "1", borderBottom: "3px solid white"}}>
         <header>
           <MDBView src={transparent}>
-            <MDBMask overlay="white-slight" className="flex-center flex-column text-center">
+            <MDBMask overlay="black-slight" className="flex-center flex-column text-center">
               <MDBContainer className="mt-5" style={{width:"100%", minHeight: "75vh", overflow: "auto"}}>
                 <MDBCard className="shadow-box-example hoverable mt-4 mb-4 py-2" style={{ opacity: .95 }}>
                   <MDBRow className="mx-auto">
@@ -30,7 +30,7 @@ class AboutFR extends Component {
                   </MDBRow> 
                   <MDBRow className="mx-auto">
                     <MDBCol lg="12" className="mx-auto">
-                      <MDBRow className="mb-3 mx-5" >
+                      <MDBRow className="mb-0 mx-5" >
                         <h5 className="mx-auto">A La Carte Tours, entreprise basée en Californie depuis avril 1987, offre ses services réceptifs de qualité sur l’ensemble des États-Unis.</h5>
                       </MDBRow>
                       <MDBRow className="mx-auto">

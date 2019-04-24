@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import NavbarFR from "../Navbar/NavbarFR";
 import HomeFR from "../Home/HomeFR";
 import AboutFR from "../About/AboutFR";
+import IncentivesFR from "../Incentives/IncentivesFR";
 
 import Footer from "../Footer/Footer";
 
@@ -14,6 +15,7 @@ class MasterFR extends Component {
         <NavbarFR />
         <HomeFR />
         <AboutFR />
+        <IncentivesFR />
         <Footer />
       </div>
     );

@@ -43,18 +43,23 @@ class NavbarFR extends Component {
     this.setState({ isOpen: false });
   }
 
-  scrollToTech = () => {
-    document.getElementById("tech").scrollIntoView({ behavior: "smooth" });
+  scrollToIncentives = () => {
+    document.getElementById("incentives").scrollIntoView({ behavior: "smooth" });
     this.setState({ isOpen: false });
   }
 
-  scrollToResume = () => {
-    document.getElementById("resume").scrollIntoView({ behavior: "smooth" });
+  scrollToConventions = () => {
+    document.getElementById("conventions").scrollIntoView({ behavior: "smooth" });
     this.setState({ isOpen: false });
   }
 
-  scrollToProjects = () => {
-    document.getElementById("projects").scrollIntoView({ behavior: "smooth" });
+  scrollToTour = () => {
+    document.getElementById("tour").scrollIntoView({ behavior: "smooth" });
+    this.setState({ isOpen: false });
+  }
+
+  scrollToFIT = () => {
+    document.getElementById("FIT").scrollIntoView({ behavior: "smooth" });
     this.setState({ isOpen: false });
   }
 
@@ -62,7 +67,7 @@ class NavbarFR extends Component {
     document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
     this.setState({ isOpen: false });
   }
-
+  
   render() {
     return (
       <MDBNavbar className="shadow-box-example border-bottom border-light animated fadeIn" expand="xl" light style={{backgroundColor: "rgba(255,255,255,.75)"}} scrolling fixed="top">
