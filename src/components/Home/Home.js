@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 import { MDBIcon, MDBView, MDBMask } from "mdbreact";
 
-import transparent from "../../assets/images/transparent.png";
+import transparent from "../../assets/images/backgrounds/transparent.png";
 import "./home.css";
 
 import BackgroundSlideshow from 'react-background-slideshow';
  
-import goldengate from '../../assets/images/goldengate.jpg';
-import lasvegas from '../../assets/images/lasvegas.jpg';
-import nyc from '../../assets/images/nyc2.jpg';
-import deathvalley from '../../assets/images/deathvalley.jpg';
-import sanfrancisco from '../../assets/images/sanfrancisco.jpg';
+import goldengate from '../../assets/images/backgrounds/goldengate.jpg';
+import lasvegas from '../../assets/images/backgrounds/lasvegas.jpg';
+import nyc from '../../assets/images/backgrounds/nyc2.jpg';
+import deathvalley from '../../assets/images/backgrounds/deathvalley.jpg';
+import sanfrancisco from '../../assets/images/backgrounds/sanfrancisco.jpg';
 
 class Home extends Component {
   scrollToAbout = () => {

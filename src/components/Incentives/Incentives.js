@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import { MDBRow, MDBCol, MDBCard, MDBIcon, MDBContainer, MDBView, MDBMask, MDBBtn } from "mdbreact";
 
-import grandcanyon from "../../assets/images/grandcanyon.jpg";
+import IncentivePhotos from "./IncentivePhotos";
+
+import grandcanyon from "../../assets/images/backgrounds/grandcanyon.jpg";
 
 class Incentives extends Component {
   scrollToConventions = () => {
@@ -17,6 +19,7 @@ class Incentives extends Component {
             <MDBMask overlay="black-slight" className="flex-center flex-column text-center">
               <MDBContainer className="mt-5" style={{width:"100%", minHeight: "75vh", overflow: "auto"}}>
                 <h1 className="main-heading" style={{ textShadow: ".3vh .3vh 25px #00000088", marginTop: "45px" }}>Incentives</h1>
+                <hr className="animated fadeIn" style={{ backgroundColor: "white", width: "25%", height: "2px", opacity: ".9", boxShadow: ".3vh .3vh 25px #000000", marginTop: "-5px" }}/>
                 <MDBCard className="shadow-box-example hoverable mt-4 mb-4 py-2" style={{ opacity: .95 }}>
                   <MDBRow className="mx-auto">
                     <MDBCol lg="12" className="mx-auto">
@@ -27,12 +30,8 @@ class Incentives extends Component {
                     </MDBCol>
                   </MDBRow> 
                   <MDBRow className="text-left">
-                    <MDBCol lg="8" className="mx-auto">
+                    <MDBCol lg="6" className="mx-auto pl-5">
                       <h5 className="mx-5 mb-2">We will:</h5>
-                    </MDBCol>
-                  </MDBRow>
-                  <MDBRow>
-                    <MDBCol lg="7" className="mx-auto">
                       <ul className="text-left mx-3">
                         <li className="mb-0">Design custom incentive programs</li>
                         <li className="mb-0">Suggest unique hotels & venues</li>
@@ -40,6 +39,9 @@ class Incentives extends Component {
                         <li className="mb-0">Plan delicious meals</li>
                         <li>Organize unforgettable and unique American experiences: helicopter flight, jeep excursion, river rafting, horseback riding, classic car rally, hot air balloon ride, sailing trip, motorcycle tours and much more!</li>
                       </ul>
+                    </MDBCol>
+                    <MDBCol lg="5" className="mx-auto px-5">
+                      <IncentivePhotos />
                     </MDBCol>
                   </MDBRow>
                   <MDBRow className="mx-auto">

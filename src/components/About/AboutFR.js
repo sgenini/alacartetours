@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { MDBRow, MDBCol, MDBCard, MDBIcon, MDBContainer, MDBView, MDBMask } from "mdbreact";
 
-import transparent from "../../assets/images/transparent.png";
-import logo from "../../assets/images/logo2.png";
+import transparent from "../../assets/images/backgrounds/transparent.png";
+import logo from "../../assets/images/logo/logo2.png";
 
 class AboutFR extends Component {
   scrollToIncentives = () => {

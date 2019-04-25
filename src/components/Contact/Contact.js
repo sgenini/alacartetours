@@ -1,8 +1,8 @@
 import React from "react";
 import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBBtn, MDBInput, MDBContainer, MDBView, MDBMask } from "mdbreact";
 
-import logo from "../../assets/images/logo2-transparent.png";
-import desk from "../../assets/images/desk.jpg";
+import logo from "../../assets/images/logo/logo2.png";
+import desk from "../../assets/images/backgrounds/desk.jpg";
 
 class Contact extends React.Component {
   constructor(props) {

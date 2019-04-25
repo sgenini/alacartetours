@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { MDBContainer, MDBView, MDBMask, MDBBtn } from "mdbreact";
 
-import construction from "../../assets/images/construction.jpg";
+import construction from "../../assets/images/backgrounds/construction.jpg";
 
 class NotFound extends Component {
   render() {

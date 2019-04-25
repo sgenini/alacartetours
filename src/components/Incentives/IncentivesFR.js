@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import { MDBRow, MDBCol, MDBCard, MDBIcon, MDBContainer, MDBView, MDBMask, MDBBtn } from "mdbreact";
 
-import grandcanyon from "../../assets/images/grandcanyon.jpg";
+import IncentivePhotos from "./IncentivePhotos";
+
+import grandcanyon from "../../assets/images/backgrounds/grandcanyon.jpg";
 
 class IncentivesFR extends Component {
   scrollToConventions = () => {
@@ -16,7 +18,8 @@ class IncentivesFR extends Component {
           <MDBView src={grandcanyon}>
             <MDBMask overlay="black-slight" className="flex-center flex-column text-center">
               <MDBContainer className="mt-5" style={{width:"100%", minHeight: "75vh", overflow: "auto"}}>
-                <h1 className="main-heading" style={{ textShadow: ".3vh .3vh 25px #00000088", marginTop: "45px" }}>Incentives</h1>
+                <h1 className="main-heading" style={{ textShadow: ".3vh .3vh 25px #00000088", marginTop: "35px" }}>Incentives</h1>
+                <hr className="animated fadeIn" style={{ backgroundColor: "white", width: "25%", height: "2px", opacity: ".9", boxShadow: ".3vh .3vh 25px #000000", marginTop: "-5px" }}/>
                 <MDBCard className="shadow-box-example hoverable mt-4 mb-4 py-2" style={{ opacity: .95 }}>
                   <MDBRow className="mx-auto">
                     <MDBCol lg="12" className="mx-auto">
@@ -27,12 +30,8 @@ class IncentivesFR extends Component {
                     </MDBCol>
                   </MDBRow> 
                   <MDBRow className="text-left">
-                    <MDBCol lg="8" className="mx-auto">
+                    <MDBCol lg="6" className="mx-auto">
                       <p style={{ fontSize: 15 }} className="mx-5 mb-2">Nous nous engageons à :</p>
-                    </MDBCol>
-                  </MDBRow>
-                  <MDBRow>
-                    <MDBCol lg="7" className="mx-auto">
                       <ul className="text-left mx-3">
                         <li style={{ fontSize: 15 }} className="mb-0">Concevoir des programmes d'incentive personnalisés</li>
                         <li style={{ fontSize: 15 }} className="mb-0">Proposer des hôtels et des lieux uniques</li>
@@ -40,6 +39,9 @@ class IncentivesFR extends Component {
                         <li style={{ fontSize: 15 }} className="mb-0">Planifier des repas délicieux</li>
                         <li style={{ fontSize: 15 }}>Organiser des expériences américaines inoubliables et uniques : vol en hélicoptère, excursion en jeep, rafting, équitation, visite en voitures de collection, balade en montgolfière, excursion en bateau, rallye en moto et bien plus encore !</li>
                       </ul>
+                    </MDBCol>
+                    <MDBCol lg="5" className="mx-auto px-5">
+                      <IncentivePhotos />
                     </MDBCol>
                   </MDBRow>
                   <MDBRow className="mx-auto">
