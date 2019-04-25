@@ -24,7 +24,7 @@ class Incentives extends Component {
                   <MDBRow className="mx-auto">
                     <MDBCol lg="12" className="mx-auto">
                       <MDBRow className="mt-3 mb-2 mx-4" >
-                        <h5 className="mx-auto mb-3">Our Incentive department takes special pride in designing unique incentive group itineraries.</h5>
+                        <h5 className="mx-auto mb-3"><strong>Our Incentive department takes special pride in designing unique incentive group itineraries.</strong></h5>
                         <h5 className="mx-auto mb-3">We are 100% committed to working closely with you to create remarkable and unforgettable trips that will ensure your client’s satisfaction and contribute to your company’s lasting success.</h5>
                       </MDBRow>
                     </MDBCol>

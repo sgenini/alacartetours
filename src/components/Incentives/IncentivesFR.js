@@ -24,7 +24,7 @@ class IncentivesFR extends Component {
                   <MDBRow className="mx-auto">
                     <MDBCol lg="12" className="mx-auto">
                       <MDBRow className="mt-3 mb-2 mx-4" >
-                        <p style={{ fontSize: 15 }} className="mx-auto mb-3">Notre département "Voyages d'Incentive" est de plus en plus sollicité, et nous apportons un soin tout particulier à l'établissement de ces voyages inédits.</p>
+                        <h5 className="mx-auto mb-3"><strong>Notre département "Voyages d'Incentive" est de plus en plus sollicité, et nous apportons un soin tout particulier à l'établissement de ces voyages inédits.</strong></h5>
                         <p style={{ fontSize: 15 }} className="mx-auto mb-3">Nous nous engageons à concevoir des produits les plus originaux possibles tout en travaillant de concert avec vous afin d'élaborer des produits uniques et extraordinaires qui rentreront dans les budgets alloués et contribueront au succès de votre société.</p>
                       </MDBRow>
                     </MDBCol>
