@@ -53,7 +53,7 @@ class ConventionsFR extends Component {
                       </MDBRow>
                     </MDBCol>
                   </MDBRow>
-                  <MDBRow className="mx-auto"><h1 className="animated fadeIn" style={{ opacity: .9, color: "#757575" }}><MDBIcon icon="angle-down" onClick={this.scrollToConventions} /></h1></MDBRow>
+                  <MDBRow className="mx-auto"><h1 className="animated fadeIn" style={{ opacity: .9, color: "#757575" }}><MDBIcon icon="angle-down" onClick={this.scrollToTour} /></h1></MDBRow>
                 </MDBCard>
               </MDBContainer>
             </MDBMask>
