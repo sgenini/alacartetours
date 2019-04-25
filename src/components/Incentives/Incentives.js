@@ -30,7 +30,7 @@ class Incentives extends Component {
                     </MDBCol>
                   </MDBRow> 
                   <MDBRow className="text-left">
-                    <MDBCol lg="7" className="mx-auto pl-5">
+                    <MDBCol xl="7" className="mx-auto pl-5">
                       <h5 className="mx-5 mb-2">We will:</h5>
                       <ul className="text-left mx-3">
                         <li className="mb-0">Design custom incentive programs</li>
@@ -40,7 +40,7 @@ class Incentives extends Component {
                         <li>Organize unforgettable and unique American experiences: helicopter flight, jeep excursion, river rafting, horseback riding, classic car rally, hot air balloon ride, sailing trip, motorcycle tours and much more!</li>
                       </ul>
                     </MDBCol>
-                    <MDBCol lg="4" className="mx-auto pt-2 px-5">
+                    <MDBCol xl="4" className="mx-auto pt-2 px-5">
                       <IncentivePhotos />
                     </MDBCol>
                   </MDBRow>

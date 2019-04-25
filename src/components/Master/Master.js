@@ -5,6 +5,7 @@ import Home from "../Home/Home";
 import About from "../About/About";
 import Incentives from "../Incentives/Incentives";
 import Conventions from "../Conventions/Conventions";
+import Tour from "../Tour/Tour";
 
 import Footer from "../Footer/Footer";
 
@@ -18,6 +19,7 @@ class Master extends Component {
         <About />
         <Incentives />
         <Conventions />
+        <Tour />
         <Footer />
       </div>
     );

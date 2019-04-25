@@ -34,7 +34,7 @@ class About extends Component {
                         <h5 className="mx-auto">A La Carte Tours, based in California since 1987, provides quality receptive services for all U.S. destinations.</h5>
                       </MDBRow>
                       <MDBRow className="mx-auto">
-                        <MDBCol lg="6" className="text-center mx-auto">
+                        <MDBCol xl="6" className="text-center mx-auto">
                           <MDBRow>
                             <MDBCol lg="11" className="mx-auto mb-3">
                               <MDBIcon icon="globe-americas" className="mb-2" style={{ fontSize: "30px", color: "#757575" }}/>
@@ -54,7 +54,7 @@ class About extends Component {
                             </MDBCol>
                           </MDBRow>
                         </MDBCol>
-                        <MDBCol lg="6" className="text-center mx-auto">
+                        <MDBCol xl="6" className="text-center mx-auto">
                           <MDBRow>
                             <MDBCol lg="11" className="mx-auto mb-3">
                               <MDBIcon icon="map-marked-alt" className="mb-2" style={{ fontSize: "30px", color: "#757575" }}/>

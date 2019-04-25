@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { MDBRow, MDBCol, MDBCard, MDBIcon, MDBContainer, MDBView, MDBMask, MDBBtn } from "mdbreact";
+import { MDBRow, MDBCol, MDBCard, MDBIcon, MDBContainer, MDBView, MDBMask } from "mdbreact";
 
 import interior from "../../assets/images/backgrounds/interior.jpg";
 
@@ -27,7 +27,7 @@ class Conventions extends Component {
                     </MDBCol>
                   </MDBRow> 
                   <MDBRow className="text-left">
-                    <MDBCol lg="4" className="mx-auto px-4">
+                    <MDBCol xl="4" className="mx-auto px-4">
                       <h5 className="mx-5 mb-2">We provide services for:</h5>
                       <ul className="text-left mx-3">
                         <li className="mb-0">Lodging and restaurant reservations</li>
@@ -39,21 +39,21 @@ class Conventions extends Component {
                         <li>Spousal programs (visits of major attractions, spa services, shopping trips, etc.)</li>
                       </ul>
                     </MDBCol>
-                    <MDBCol lg="8" className="mx-auto px-5">
+                    <MDBCol xl="8" className="mx-auto px-5">
                       <h5 className="text-left">Some of the international conventions we have worked on:</h5>
                       <MDBRow>
-                        <MDBCol lg="7" className="mb-3">
+                        <MDBCol xl="7" className="mb-3">
                           <p><strong>Medical Sector:</strong></p>
                           <p>AAN (Neurological), AAO (Ophthalmology), AASLD (Liver disease), ACC (Cardiology), ACR (College of Radiology), AES (Epilepsy), ADA (Diabetes), AGA (Gastroenterology), AHA (American Heart Association), APA (Psychiatric), ASCO (Clinical Oncology), ASDA (Sleep disorder), ASH (Hematology), ASH (Hypertension), ASTP (Transplant physicians), ASTRO (Therapeutic radiology and oncology), ATA (Thyroid), ATS (Thoracic), AUA (Urology), AVS (Vascular society), ICAAC (Antimicrobial agents and chemotherapy), NAMS (Menopause society), RSNA (Rheumatology), ASN (American Society of Nephrology) ... </p>
                         </MDBCol>
-                        <MDBCol lg="5">
+                        <MDBCol xl="5">
                           <p><strong>Other sectors:</strong></p>
                           <p>Air Conditioning & Refrigeration Show, Consumer Electronic Show in Las Vegas, Conexpo, Home Garden Show, INFOCOM, International Bakers Association, International Wine Council, Kitchen & Bath Show, N.A.A.B. (Broadcasters), National Restaurant Association, Rodeo Finals Championship, Rotary Club International, CES (Consumer Technology Association) ... </p>
                         </MDBCol>
                       </MDBRow>
                     </MDBCol>
                   </MDBRow>
-                  <MDBRow className="mx-auto"><h1 className="animated fadeIn" style={{ opacity: .9, color: "#757575" }}><MDBIcon icon="angle-down" onClick={this.scrollToConventions} /></h1></MDBRow>
+                  <MDBRow className="mx-auto"><h1 className="animated fadeIn" style={{ opacity: .9, color: "#757575" }}><MDBIcon icon="angle-down" onClick={this.scrollToTour} /></h1></MDBRow>
                 </MDBCard>
               </MDBContainer>
             </MDBMask>

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { MDBRow, MDBCol, MDBCard, MDBIcon, MDBContainer, MDBView, MDBMask, MDBBtn } from "mdbreact";
+import { MDBRow, MDBCol, MDBCard, MDBIcon, MDBContainer, MDBView, MDBMask } from "mdbreact";
 
 import interior from "../../assets/images/backgrounds/interior.jpg";
 
@@ -27,7 +27,7 @@ class ConventionsFR extends Component {
                     </MDBCol>
                   </MDBRow> 
                   <MDBRow className="text-left">
-                    <MDBCol lg="5" className="mx-auto px-4">
+                    <MDBCol xl="5" className="mx-auto px-4">
                       <h5 className="mx-4 mb-2 text-center">Lors de conventions aux États-Unis nous gérons les prestations suivantes :</h5>
                       <ul className="text-left mx-3">
                         <li className="mb-0">Hébergement et restauration</li>
@@ -39,14 +39,14 @@ class ConventionsFR extends Component {
                         <li>Programmes de divertissement pour époux/se (visites des principales attractions, services spa, sorties shopping, etc.)</li>
                       </ul>
                     </MDBCol>
-                    <MDBCol lg="7" className="mx-auto px-5">
+                    <MDBCol xl="7" className="mx-auto px-5">
                       <h5 className="text-left">Voici une liste non-exhaustive de conventions internationales sur lesquelles A La Carte Tours a travaillé :</h5>
                       <MDBRow>
-                        <MDBCol lg="7" className="mb-3">
+                        <MDBCol xl="7" className="mb-3">
                           <p><strong>Secteur médical :</strong></p>
                           <p>AAN (Neurologie), AAO. (Ophtalmologie), AASLD (Liver disease), ACC (Cardiology), ACR (College of Radiology), AES (Epilepsie), ADA (Diabetes), AGA (Gastroentérologie), AHA (American Heart Association), APA (Psychiatrie), ASCO (Clinical Oncology), ASDA (Sleep disorder), ASH (Hématologie), ASHY (Hypertension), ASTP (Transplant physicians), ASTRO (Radiologie thérapeutique et oncologie), ATA (Thyroïde), ATS (Thoracic), AUA (Urology), AVS (Vascular society), ICAAC (Antimicrobial agents and chemotherapy), NAMS (Menopause society), RSNA (Radiological Society of North America)...</p>
                         </MDBCol>
-                        <MDBCol lg="5">
+                        <MDBCol xl="5">
                           <p><strong>Autres secteurs :</strong></p>
                           <p>Air Conditioning & Refrigeration Show, Comdex Las Vegas, Consumer Electronic Show, Home Garden Show, INFOCOM, International Bakers Association, International Wine Council, Kitchen & Bath Show, NAAB (Broadcasters), National Restaurant Association, Rodeo Finals Championship, Rotary Club International, CES (Consumer Technology Association) ... </p>
                         </MDBCol>

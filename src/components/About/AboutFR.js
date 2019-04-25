@@ -34,7 +34,7 @@ class AboutFR extends Component {
                         <h5 className="mx-auto">A La Carte Tours, entreprise basée en Californie depuis avril 1987, offre ses services réceptifs de qualité sur l’ensemble des États-Unis.</h5>
                       </MDBRow>
                       <MDBRow className="mx-auto">
-                        <MDBCol lg="6" className="text-center mx-auto">
+                        <MDBCol xl="6" className="text-center mx-auto">
                           <MDBRow>
                             <MDBCol lg="11" className="mx-auto mb-3">
                               <MDBIcon icon="globe-americas" className="mb-2" style={{ fontSize: "30px", color: "#757575" }}/>
@@ -54,7 +54,7 @@ class AboutFR extends Component {
                             </MDBCol>
                           </MDBRow>
                         </MDBCol>
-                        <MDBCol lg="6" className="text-center mx-auto">
+                        <MDBCol xl="6" className="text-center mx-auto">
                           <MDBRow>
                             <MDBCol lg="11" className="mx-auto mb-3">
                               <MDBIcon icon="map-marked-alt" className="mb-2" style={{ fontSize: "30px", color: "#757575" }}/>

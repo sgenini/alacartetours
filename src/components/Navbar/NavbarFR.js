@@ -70,7 +70,7 @@ class NavbarFR extends Component {
   
   render() {
     return (
-      <MDBNavbar className="shadow-box-example border-bottom border-light animated fadeIn" expand="xl" light style={{backgroundColor: "rgba(255,255,255,.75)"}} scrolling fixed="top">
+      <MDBNavbar className="shadow-box-example border-bottom border-light animated fadeIn text-center" expand="xl" light style={{backgroundColor: "rgba(255,255,255,.75)"}} scrolling fixed="top">
         <MDBNavbarBrand>
           <strong className="font-nunito text-uppercase">
               <img src={logo} alt="logo" height="40" /> A La Carte Tours</strong>
