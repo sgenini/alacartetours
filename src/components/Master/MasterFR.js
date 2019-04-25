@@ -4,6 +4,7 @@ import NavbarFR from "../Navbar/NavbarFR";
 import HomeFR from "../Home/HomeFR";
 import AboutFR from "../About/AboutFR";
 import IncentivesFR from "../Incentives/IncentivesFR";
+import ConventionsFR from "../Conventions/ConventionsFR";
 import FooterFR from "../Footer/FooterFR";
 
 
@@ -15,6 +16,7 @@ class MasterFR extends Component {
         <HomeFR />
         <AboutFR />
         <IncentivesFR />
+        <ConventionsFR />
         <FooterFR />
       </div>
     );

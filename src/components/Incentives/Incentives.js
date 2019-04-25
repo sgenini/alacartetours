@@ -13,7 +13,7 @@ class Incentives extends Component {
 
   render() {
     return (
-      <section id="incentives" className="about-page animated fadeIn" style={{opacity: "1", borderBottom: "3px solid white"}}>
+      <section id="incentives" className="incentives-page animated fadeIn" style={{opacity: "1", borderBottom: "3px solid white"}}>
         <header>
           <MDBView src={grandcanyon}>
             <MDBMask overlay="black-slight" className="flex-center flex-column text-center">
@@ -30,7 +30,7 @@ class Incentives extends Component {
                     </MDBCol>
                   </MDBRow> 
                   <MDBRow className="text-left">
-                    <MDBCol lg="6" className="mx-auto pl-5">
+                    <MDBCol lg="7" className="mx-auto pl-5">
                       <h5 className="mx-5 mb-2">We will:</h5>
                       <ul className="text-left mx-3">
                         <li className="mb-0">Design custom incentive programs</li>
@@ -40,7 +40,7 @@ class Incentives extends Component {
                         <li>Organize unforgettable and unique American experiences: helicopter flight, jeep excursion, river rafting, horseback riding, classic car rally, hot air balloon ride, sailing trip, motorcycle tours and much more!</li>
                       </ul>
                     </MDBCol>
-                    <MDBCol lg="5" className="mx-auto px-5">
+                    <MDBCol lg="4" className="mx-auto pt-2 px-5">
                       <IncentivePhotos />
                     </MDBCol>
                   </MDBRow>

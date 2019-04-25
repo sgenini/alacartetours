@@ -13,7 +13,7 @@ class IncentivesFR extends Component {
 
   render() {
     return (
-      <section id="incentives" className="about-page animated fadeIn" style={{opacity: "1", borderBottom: "3px solid white"}}>
+      <section id="incentives" className="incentives-page animated fadeIn" style={{opacity: "1", borderBottom: "3px solid white"}}>
         <header>
           <MDBView src={grandcanyon}>
             <MDBMask overlay="black-slight" className="flex-center flex-column text-center">
@@ -30,7 +30,7 @@ class IncentivesFR extends Component {
                     </MDBCol>
                   </MDBRow> 
                   <MDBRow className="text-left">
-                    <MDBCol lg="6" className="mx-auto">
+                    <MDBCol lg="7" className="mx-auto">
                       <p style={{ fontSize: 15 }} className="mx-5 mb-2">Nous nous engageons à :</p>
                       <ul className="text-left mx-3">
                         <li style={{ fontSize: 15 }} className="mb-0">Concevoir des programmes d'incentive personnalisés</li>
@@ -40,7 +40,7 @@ class IncentivesFR extends Component {
                         <li style={{ fontSize: 15 }}>Organiser des expériences américaines inoubliables et uniques : vol en hélicoptère, excursion en jeep, rafting, équitation, visite en voitures de collection, balade en montgolfière, excursion en bateau, rallye en moto et bien plus encore !</li>
                       </ul>
                     </MDBCol>
-                    <MDBCol lg="5" className="mx-auto px-5">
+                    <MDBCol lg="4" className="mx-auto pt-2 px-5">
                       <IncentivePhotos />
                     </MDBCol>
                   </MDBRow>
