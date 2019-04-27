@@ -99,7 +99,7 @@ class NavbarFR extends Component {
           </MDBNavbarNav>
           <MDBNavbarNav right>
             <MDBNavItem>
-              <MDBNavLink className="font-nunito text-uppercase rounded" to="/fr/#contact" onClick={this.scrollToContact}><MDBIcon far icon="comment" className="pr-2" />Contactez-Nous</MDBNavLink>
+              <MDBNavLink className="font-nunito text-uppercase rounded" to="/fr/#contact" onClick={this.scrollToContact}><MDBIcon far icon="comment" className="pr-2" />Contacter</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
               <MDBNavLink className="waves-effect waves-light font-nunito text-uppercase rounded" to="/" onClick={this.scrollToHome}><MDBIcon icon="globe-americas" className="pr-2" />EN</MDBNavLink>

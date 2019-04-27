@@ -4,7 +4,7 @@ import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBBtn, MDBInput, MDBCo
 import logo from "../../assets/images/logo/logo2.png";
 import desk from "../../assets/images/backgrounds/desk.jpg";
 
-class Contact extends React.Component {
+class ContactFR extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -34,11 +34,11 @@ class Contact extends React.Component {
                   <MDBRow>
                     <MDBCol lg="4">
                       <MDBCardBody className="contact text-center h-100 black-text">
-                        <h3 className="my-4 pb-2" color="#FFFFFF"><strong style={{fontFamily: "'Crimson Text', serif"}} >Contact Information</strong></h3>
+                        <h3 className="my-4 pb-2" color="#FFFFFF"><strong style={{fontFamily: "'Crimson Text', serif"}} >Contactez-nous</strong></h3>
                         <ul className="text-lg-center list-unstyled">
                           <li>
                             <p>
-                              <MDBIcon icon="phone" className="pr-2" />Phone<br/>
+                              <MDBIcon icon="phone" className="pr-2" />Tel<br/>
                               1 (510) 658-6877
                             </p>
                           </li>
@@ -62,7 +62,7 @@ class Contact extends React.Component {
                     <MDBCol lg="7" className="mx-auto">
                       <MDBCardBody className="form ml-auto">
                         <h3 className="mt-4 mb-3 text-lg-center" color="#FFFFFF">
-                          <strong style={{fontFamily: "'Crimson Text', serif", textTransform: "capitalize"}} >Fill in the form to send us an email</strong>
+                          <strong style={{fontFamily: "'Crimson Text', serif"}} >Utilisez le formulaire ci-dessous pour nous faire parvenir vos messages</strong>
                         </h3>
                         <MDBRow>
                           <MDBCol md="6">
@@ -70,7 +70,7 @@ class Contact extends React.Component {
                               <MDBInput
                                 type="text"
                                 id="form-contact-name"
-                                label="Your name"
+                                label="Nom"
                                 value={this.state.name}
                                 onChange={ e => this.setState({ name: e.target.value })}
                                 name="name"
@@ -82,7 +82,7 @@ class Contact extends React.Component {
                               <MDBInput
                                 type="text"
                                 id="form-contact-email"
-                                label="Your email"
+                                label="Email"
                                 value={this.state.email}
                                 onChange={ e => this.setState({ email: e.target.value })}
                                 name="email"
@@ -96,7 +96,7 @@ class Contact extends React.Component {
                               <MDBInput
                                 type="text"
                                 id="form-contact-subject"
-                                label="Subject"
+                                label="Objet"
                                 value={this.state.subject}
                                 onChange={ e => this.setState({ subject: e.target.value })}
                                 name="subject"
@@ -118,7 +118,7 @@ class Contact extends React.Component {
                                 name="message"
                               />
                               <MDBBtn rounded color="elegant" size="lg" type="submit">
-                                <MDBIcon icon="paper-plane" className="mr-3" /> Send
+                                <MDBIcon icon="paper-plane" className="mr-3" /> Envoyer
                               </MDBBtn> <br />
                               <small>NOTE: You will be prompted to complete a CAPTCHA to avoid bot spam! <span role="img" aria-label="beep-boop">🤖</span></small>
                             </div>
@@ -138,4 +138,4 @@ class Contact extends React.Component {
   }
 }
 
-export default Contact;
+export default ContactFR;
