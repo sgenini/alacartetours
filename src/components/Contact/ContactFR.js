@@ -2,7 +2,7 @@ import React from "react";
 import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBBtn, MDBInput, MDBContainer, MDBView, MDBMask } from "mdbreact";
 
 import logo from "../../assets/images/logo/logo2.png";
-import desk from "../../assets/images/backgrounds/desk.jpg";
+import palmtrees from "../../assets/images/backgrounds/palmtrees.jpg";
 
 class ContactFR extends React.Component {
   constructor(props) {
@@ -26,7 +26,7 @@ class ContactFR extends React.Component {
   render(){
     return (
       <section id="contact" className="contact-page" style={{opacity: ".9", minHeight: "100%"}}>
-        <MDBView src={desk}>
+        <MDBView src={palmtrees}>
           <MDBMask overlay="black-light" className="flex-center flex-column text-center">
             <MDBContainer style={{width:"100%", minHeight: "75vh", overflow: "auto"}}> 
               <MDBCard className="shadow-box-example hoverable mt-5 mb-3">

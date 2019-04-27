@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { MDBRow, MDBCol, MDBCard, MDBIcon, MDBContainer, MDBView, MDBMask } from "mdbreact";
 
-import transparent from "../../assets/images/backgrounds/transparent.png";
+import desk from "../../assets/images/backgrounds/desk.jpg";
 import logo from "../../assets/images/logo/logo2.png";
 
 class About extends Component {
@@ -14,7 +14,7 @@ class About extends Component {
     return (
       <section id="about" className="about-page animated fadeIn" style={{opacity: "1", borderBottom: "3px solid white"}}>
         <header>
-          <MDBView src={transparent}>
+          <MDBView src={desk}>
             <MDBMask overlay="black-slight" className="flex-center flex-column text-center">
               <MDBContainer className="mt-5" style={{width:"100%", minHeight: "75vh", overflow: "auto"}}>
                 <MDBCard className="shadow-box-example hoverable mt-4 mb-4 py-2" style={{ opacity: .95 }}>
